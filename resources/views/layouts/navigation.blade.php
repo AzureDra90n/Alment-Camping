@@ -8,7 +8,7 @@
                         <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
                             <use xlink:href="#bootstrap" />
                         </svg>
-                        <span class="fs-4">CAMPING FUN | Outdoor Equipment Rent</span>
+                        <span class="fs-4">ALMENT CAMPING | Outdoor Rent</span>
                     </a>
 
                 </div>
@@ -79,14 +79,6 @@
                         @endguest
                     </ul>
                 </div>
-
-                <!-- <div class="text-end">
-                    <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">Sign-in</button>
-
-                    <button type="button" class="btn btn-outline-warning me-2">Sign-Up</button>
-                </div> -->
-
             </div>
         </div>
     </div>

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class DeskripsiController extends Controller
+class DeskripsiMainController extends Controller
 {
     public function deskripsiBarang($id)
     {

@@ -21,7 +21,7 @@
                             <p class="card-text">
                                 {{ $detailBrg->Deskripsi }}
                             </p>
-                            <a href="/equipments-main" class="btn btn-primary">Back</a>
+                            <a href="/equipments-dine" class="btn btn-primary">Back</a>
                         </div>
                     </div>
 
