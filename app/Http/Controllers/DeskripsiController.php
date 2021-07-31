@@ -7,12 +7,12 @@ use Illuminate\Support\Facades\DB;
 
 class DeskripsiController extends Controller
 {
-    public function deskripsiBarang()
+    public function deskripsiBarang($id)
     {
         $detailBrg = DB::table('tbl_barang')
-            ->where('Deskripsi', '=', 'Tent')
+            ->where('Id_Brg', $id)
             ->get();
 
-        return view('Main Equipments', compact('detailBrg'));
+        return view('Deskripsi', compact('detailBrg'));
     }
 }

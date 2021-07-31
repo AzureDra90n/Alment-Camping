@@ -24,7 +24,7 @@
                       <p class="card-text">Type: {{ $dtBrg->Jenis_Brg }}</p>
                       <p class="card-text">Rent Price: {{ $dtBrg->Harga_Sewa }}</p>
 
-                      <a class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModalDetail">Detail</a>
+                      <a href="deskripsi/{{ $dtBrg->Id_Brg }}" class="btn btn-outline-dark">Detail</a>
                       <a href="#" class="btn btn-outline-warning">Add to Rent List</a>
                     </div>
 
@@ -32,29 +32,6 @@
 
             </div>
             @endforeach
-
         </div>
-
-    </div>
-
-    <div class="modal fade" id="exampleModalDetail" tabindex="-1" aria-labelledby="exampleModalLabelDetail" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-          <div class="modal-content">
-      
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabelDetail">DESKRIPSI</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                @foreach ($detailBrg as $dtlBrg)
-                {{ $detailBrg->Deskripsi }}
-                    
-                @endforeach
-            </div>
-      
-          </div>
-      
-        </div>
-      
     </div>
 @endsection

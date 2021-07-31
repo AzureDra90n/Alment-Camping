@@ -25,6 +25,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 Route::get('/pricelist', function () {
     return view('Price List');
 });
@@ -40,6 +41,6 @@ Route::get('equipments-dine', [DineController::class, 'dineEquipment']);
 
 Route::get('equipments-support', [SupportController::class, 'supportEquipment']);
 
-Route::get('deskripsi', [DeskripsiController::class, 'deskripsiBarang']);
+Route::get('deskripsi/{id}', [DeskripsiController::class, 'deskripsiBarang']);
 
 Route::get('posts/{slug}', [PostController::class, 'show']);
