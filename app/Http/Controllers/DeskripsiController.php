@@ -11,7 +11,7 @@ class DeskripsiController extends Controller
     {
         $detailBrg = DB::table('tbl_barang')
             ->where('Id_Brg', $id)
-            ->get();
+            ->first();
 
         return view('Deskripsi', compact('detailBrg'));
     }
