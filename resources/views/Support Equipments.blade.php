@@ -24,7 +24,7 @@
                       <p class="card-text">Type: {{ $dtBrg->Jenis_Brg }}</p>
                       <p class="card-text">Rent Price: {{ $dtBrg->Harga_Sewa }}</p>
 
-                      <a href="#" class="btn btn-outline-dark">Detail</a>
+                      <a href="deskripsi3/{{ $dtBrg->Id_Brg }}" class="btn btn-outline-dark">Detail</a>
                       <a href="#" class="btn btn-outline-warning">Add to Rent List</a>
                     </div>
 
