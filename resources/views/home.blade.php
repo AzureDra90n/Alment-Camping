@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'ALMENT CAMPING | Home')
+@section('title', 'CAMPING FUN | Home')
 
 @section('content')
   <div class="container">
@@ -65,7 +65,7 @@
             <img src="{{ asset('/img/nesting-equipment.png') }}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">NESTING EQUIPMENT</h5>
-                <p class="card-text">Time to make some delicacy to fill out our stomach before we catch by cold.</p>
+                <p class="card-text">Time to make some delicacy to fill out our stomach before we catch some cold, with some nesting equipment ofcourse.</p>
             </div>
         </div>
       </div>

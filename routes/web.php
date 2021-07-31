@@ -29,8 +29,8 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/pricelist', function () {
-    return view('Price List');
+Route::get('/cart', function () {
+    return view('Cart');
 });
 
 Route::get('/faqs', function () {

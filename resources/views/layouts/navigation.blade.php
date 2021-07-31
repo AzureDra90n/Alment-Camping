@@ -53,9 +53,8 @@
                             </ul>
                         </li>
 
-                        <li><a href="/pricelist"
-                                class="nav-link px-2 text-white{{ request()->is('pricelist') ? ' active' : '' }}">PRICE
-                                LIST</a></li>
+                        <li><a href="/cart"
+                                class="nav-link px-2 text-white{{ request()->is('cart') ? ' active' : '' }}">CART</a></li>
                         <li><a href="/faqs"
                                 class="nav-link px-2 text-white{{ request()->is('faqs') ? ' active' : '' }}">FAQs</a>
                         </li>
